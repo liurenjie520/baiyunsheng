@@ -28,7 +28,7 @@ jobs:
       env:
         SCKEY: ${{ secrets.Cookie }}
           
-      run: python send.py    
+      run: python tishi.py    
     - name: commit
       run: |
         git config --global user.email 485132121@qq.com
